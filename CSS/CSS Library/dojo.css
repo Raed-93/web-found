@@ -1,0 +1,61 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .c{
+    height: 30px;
+    width: 150px;
+    background-color: #2b78e4;
+    display: block;
+    border-color: #000000;
+    color: #ffffff;
+    box-shadow: 4px 4px 4px black;
+
+}
+
+.row{
+    
+    display: flex;
+}
+
+.col{
+    padding: 10px;
+    margin: 10px;
+    background-color: #a7aba9;
+    flex:1;
+
+}
+
+.nav{
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 900px;
+    justify-content: space-between;
+
+}
+
+.joker {
+    background-color: aqua;
+    width: auto;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}

@@ -1,0 +1,66 @@
+.container {
+    background-color: #e5e6f1;
+    width: 1000px;
+    height: auto;
+    align-items: center;
+    align-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.joker {
+    background-color: aqua;
+    width: auto;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.sun {
+    background-color: pink;
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+    /* padding-left: 20px; */
+    
+        
+}
+
+.sun img{
+    
+  /*  margin-right: 10px;*/
+
+}
+
+
+
+.blue {
+    background-color: white;
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+    
+
+}

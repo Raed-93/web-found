@@ -1,0 +1,33 @@
+.nav {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /* لتوسيط العناصر داخل .nav */
+    align-items: center; /* لتوسيط العناصر داخل .nav عمودياً */
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 155px;
+    margin: 80px auto; /* تم تبسيط هوامش الصفحة */
+    padding: 10px;
+    position: relative; /* يمكن استخدام النسبية للتحكم في توضيح مكان عنصر داخل .nav */
+}
+
+#btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #ffd966;
+    width: 70px;
+    height: 30px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 0px black;
+    cursor: pointer; /* إضافة مؤشر الفأرة للزر */
+    border: none; /* إزالة الحدود */
+    outline: none; /* إزالة التحديد الافتراضي */
+    position: relative; /* يسمح لنا بتحديد مكان عنصر span بالنسبة لهذا الزر */
+}
+
+#btn span {
+    position: absolute; /* تحديد مكان عنصر span بالنسبة للزر */
+    top: 100%; /* يضع النص أسفل الزر */
+    left: 50%; /* يوضع النص في المنتصف أفقيًا */
+    transform: translateX(-50%); /* لتوسيط النص أفقيًا */
+}

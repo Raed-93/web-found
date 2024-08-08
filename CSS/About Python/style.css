@@ -1,0 +1,148 @@
+
+.nav1{
+      position: static;
+}
+
+body{
+    background-color: #245076;
+}
+.nav{
+   display: inline-block;
+   position: relative;
+    right: -1150px;
+    top: -145px;
+    background-color: #444444;
+    height: 70px;
+    width: 250px;
+    border-radius: 25px;
+}
+.text{
+    margin-top: -20px;
+    margin-left: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.box{
+    padding-top: 6px;
+    }
+
+.text-box{
+    
+        margin-left: 17px;
+        width: 140px;
+        height: 23px;
+        padding-left: 10px;
+
+
+}
+.text-go{
+    height: 30px;
+    width: 50px;
+    font-size: 17px;
+    background-color: #245076;
+}
+.color{
+    color: #b6a10e;
+
+}
+
+.list{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    background-color: #467dad;
+    text-decoration: none;
+    margin-left: 125px;
+    height: 53px;
+    width: 80%;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -60px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+
+.list-color{
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    list-style: none;
+    text-decoration: underline;
+    text-align: center;
+    margin-right: 935px;
+    margin-top: 55px;
+
+}
+
+.p-style {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 400px;
+    margin-top: -220px
+
+}
+
+.p2-style{
+    color:#fad12f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h4{
+    color: #fff;
+}
+
+.count{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* text-decoration:overline; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.count h1 {
+    border-top: 4px  #467dad solid;
+}
+
+.count-1{
+    padding-left: 40px;
+    
+
+}
+
+.count-2{
+    padding-right: 40px;
+    }
+
+    .final-list{
+        color: #467dad;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 185px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+    }
+
+    h5{
+        font-family: 'Roboto', sans-serif;
+        color: #467dad;
+        margin-left: 655px;
+        margin-top: 29px;
+
+}

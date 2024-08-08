@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f0f0; /* لون خلفية الصفحة في وضع النور */
+    color: #333; /* لون النص في وضع النور */
+}
+
+#pet-img{
+
+    height: 400px;
+}
+
+.dark-mode {
+    background-color: #333; /* لون خلفية الصفحة في وضع الظلام */
+    color: #f0f0f0; /* لون النص في وضع الظلام */
+}
+
+.light-mode{
+    background-color: #f0f0f0; /* لون خلفية الصفحة في وضع النور */
+    color: #333; /* لون النص في وضع النور */
+
+}

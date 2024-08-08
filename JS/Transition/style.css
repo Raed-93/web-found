@@ -1,0 +1,7 @@
+img {
+    transition: 500ms;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    background-color:#fff;
+}

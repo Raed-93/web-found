@@ -1,0 +1,12 @@
+.author-info, .social-sharing, .art-blog {
+    padding: 5px;
+}
+
+.avatar {
+    width: 50%; 
+    border-radius: 50%; 
+}
+
+.social-sharing a {
+    margin-right: 10px;
+}

@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .blog-image {
+        margin-bottom: 10px;
+    }
+
+    .art-blog {
+        flex: 1 0 100%; 
+        margin-bottom: 20px; 
+    }
+
+    body {
+        font-size: 1.2rem; 
+        line-height: 1.8; 
+    }
+
+    nav ul li {
+        margin: 5px 0; 
+    }
+}
